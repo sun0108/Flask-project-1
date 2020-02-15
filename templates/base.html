@@ -4,7 +4,13 @@
   <head>
     <meta charset="utf-8">
     <title>{{ pageTitle }}</title>
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+  <header> Vertical Tanks Maintenance Project</header>
+  <ul>
+    <li><a href="{{ url_for('index') }}" >Home</a></li>
+    <li><a href="{{ url_for('About') }}">About</a></li>
+    <li><a href="{{ url_for('Estimate') }}">Estimate</a></li>
+  </ul>  
 </head>
 
   <body>
@@ -14,5 +20,7 @@
 	  {% endblock %}
 
  </body>
-
+ <footer>
+  <p>@VTM 2020</p>
+</footer>
 </html>

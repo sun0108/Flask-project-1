@@ -2,10 +2,20 @@
 
 {% extends 'base.html' %}
 
-{% block body %}
-
-	<h2> This is my Flask server! </h2>
-
-	<img src="{{ url_for('static', filename='images/flask.jpg') }}" />
+{% block body %}	
+ 	<h2>Welcome to the VTM!</h2>
+    <main>
+		<img src="{{ url_for('static', filename='images/tanks.jpg') }}" class="center" />	
+		<br>	
+		In fermentum posuere urna nec tincidunt praesent semper feugiat nibh. 
+		Fermentum leo vel orci porta non pulvinar neque laoreet. Mattis aliquam faucibus purus in massa tempor nec.
+		Amet commodo nulla facilisi nullam vehicula. Consequat interdum varius sit amet mattis vulputate. 
+		Consectetur adipiscing elit duis tristique sollicitudin nibh. Scelerisque fermentum dui faucibus in ornare quam viverra orci.
+		Diam quis enim lobortis scelerisque fermentum dui. Urna cursus eget nunc scelerisque viverra. 
+		Velit sed ullamcorper morbi tincidunt ornare. Iaculis eu non diam phasellus. 
+		Purus sit amet volutpat consequat mauris. Nulla pellentesque dignissim enim sit. 
+		Proin sed libero enim sed faucibus turpis in. Vel orci porta non pulvinar neque laoreet suspendisse interdum.
+		Aliquet risus feugiat in ante metus dictum. Dui faucibus in ornare quam viverra orci sagittis eu volutpat.
+	</main>
 
 {% endblock %}

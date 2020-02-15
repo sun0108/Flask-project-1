@@ -1,3 +1,54 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
+
+header{  background-color: #333333; 
+   color: white;  
+   padding:10px;
+   font-size: 40px;
+  }
+
+  li {
+    float: left;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333333;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(148, 146, 146);
+  }
+ 
+  main{  border: 1px solid #333333; 
+        padding: 10px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    footer{
+     background-color: #333333; 
+     color:white;
+    }
+
+    .About{
+      text-align: left;
+      font-size: 20px;
+    }
